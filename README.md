@@ -14,3 +14,5 @@
 • Elements for embedding media (picture, video and audio) 
 
 • HTML Validation
+
+Follow the order Hello,Target,Pic_Image,
