@@ -15,4 +15,4 @@
 
 • HTML Validation
 
-Follow the order Hello,Target,Pic_Image,Containers,Lists,Tables
+Follow the order Hello,Target,Pic_Image,Containers,Lists,Tables,Forms,
