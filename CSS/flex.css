@@ -3,7 +3,7 @@
     background-color: yellow;
     justify-content: center;    /* instead of center we can use space-around space-between*/
     align-items: flex-start;    /* instead of flex-start we can use center*/
-    flex-wrap: wrap;    /* when we shrink our browser they adjust accordingly*/
+    flex-wrap: wrap;    /* when we resize our browser they adjust accordingly*/
     /* flex-direction: column; */
 
 }
@@ -15,7 +15,7 @@
 }
 .flexbox-item-1{
     min-height: 100px;
-    flex-shrink: 0; /* This flex-box doesn't shrinks when we shrink the browser*/
+    flex-shrink: 0; /* This flex-box doesn't shrinks when we resize the browser*/
     /* align-self: flex-end; only this will be in the bottom*/
 }
 .flexbox-item-2{
