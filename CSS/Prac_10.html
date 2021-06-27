@@ -7,15 +7,20 @@
                 body {
                     background-color: pink;
                 }
-                @media screen and (min-width: 1500px) {
+                @media (min-width: 1000px) {
                     body {
                         background-color: lightgreen;
+                    }                    
+                }/* when the browser window is wider than its height called "Landscape" orientation
+                @media screen and (orientation:landscape) {
+                    body{
+                        background-color: white;
                     }
-                }
+                }*/
             </style>
     </head>
     <body>
         <h1>Resize the browser window to see the effect!</h1>
-        <p>The media query will only apply if the media type is screen and the viewport is 480px wide or wider.</p>
+        <p>The media query will only apply if the media type is screen and the viewport is 1500px wide or wider.</p>
     </body>
 </html>
