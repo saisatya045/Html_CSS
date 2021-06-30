@@ -4,14 +4,42 @@
             Transformations and Trasitions
         </title>
         <style>
-            div.a(
-                width: 150px;
-  height: 80px;
-  background-color: yellow;
-  -ms-transform: rotate(20deg); /* IE 9 */
-  transform: rotate(20deg);
-}
-            )
+            .a{
+                width: 100px;
+                height: 30px;
+                background-color: yellow;
+                transform: rotate(20deg);
+                transform-origin: 100px 400px;
+            }
+            .b{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                transition-property: width;
+                transition-duration: 5s;
+                transition-delay: 1s;
+                transition-timing-function: linear;
+                /*transition time function defines how the*/
+            }
+            .b:hover {
+                width: 300px;
+            }
+            input[type=text] {
+                width: 100px;
+                transition: width .35s ease-in-out;
+            }
+            input[type=text]:focus {
+                width: 250px;
+            }
         </style>
     </head>
+    <body>
+        <h2>Transform: rotate(20deg):</h2>
+        <div class="a">Hello World!</div>
+        <br>
+        <h2>Transition</h2>
+        <div class="b">Touch this</div>
+        <br>
+        Name : <input type="text">
+    </body>
 </html>
