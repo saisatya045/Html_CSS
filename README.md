@@ -6,4 +6,4 @@
 
 • Open CSS folder for CSS
 
-Almost all essential HTML,CSS tags are covered
+Almost all essential HTML,CSS tags are covered.
